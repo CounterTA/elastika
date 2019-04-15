@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body {
+    background-color: white;
+}
+.naslov {
+    color: blue;
+    
+}
+
+#naslov {
+    font-size: 25px;
+    margin-top: 0%;
+    padding: 2%;
+    text-align: center;
+}
+
+#tekst {
+    background: linear-gradient(315deg, #ffed00 0%, #ff0000 100%);
+    font-size: 200%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#meni {
+    list-style-type: none;
+    display: inline-block;
+    margin:auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: dimgray;
+    text-align: center;
+}
+
+#meni li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.meni {
+    display: block;
+    color: white;
+    padding: 8px;
+    background-color: gray;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.meni:hover {
+    background-color: orange;
+}
+
+.besedilo {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.podtocki {
+    margin: 0% auto auto 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+h2.podtocki {
+    background-color: lightgray;
+}
+
+h1.podtocki {
+    background-color: darkgray; 
+}
+.mainbody {
+    /* margin-right: 25%;
+    margin-left: 25%; */
+    margin-right: 50%;    
+    margin-bottom: 5%;
+}
+
+.slika {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.slika2 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.sliki1 {
+    text-align: center;
+    margin-top: 3%;
+}

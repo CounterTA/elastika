@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+        <head>
+            <title>Temperatura in Elastika</title>
+        </head>
+        <body>
+            <div id="naslov">
+                <h1  id="tekst" style="display: inline-block;">Vpliv Temperature Na Dolžino Elastike</h1>
+            </div>
+            
+            <div style="text-align: center; margin-top: 1%;">
+                <ul id="meni">
+                    <li><a class="meni" href="../index.html">Uvod</a></li>
+                    <li><a style="background-color: darkorange" class="meni" href="./teorija.html">Teorija</a></li>
+                    <li><a class="meni" href="..//Eksperiment/eksperiment.html">Eksperiment</a></li>
+                    <li><a class="meni" href="../meritve/meritve.html">Meritve</a></li>
+                    <li><a class="meni" href="../rezultati/rezultati.html">Rezultati in napake</a></li>
+                    <li><a class="meni" href="../zaklucek/zaklucek.html">Zalkjuček</a></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="mainbody">
+            <h1 class="podtocki" style="margin-top: 2%;margin-bottom: 2%;">Teorija</h1>
+            
+            <h3 class="podtocki">Elastika</h3>
+                <p class="besedilo">Naravna elastika je polimer 2-metil-1,3-butandiena (isoprena) z dolgimi verižnimi členi.</p>
+                <img src="../slike/1_1.png" class="slika" style="width: 30%;">
+                <p class="besedilo">Sintetične elastike so linearni polimeri s podobnimi strukturami. Raztegljivost elastike je posledica različnih stopenj reda teh verig v raztegnjenem in neraztegnjenem stanju.</p>
+                <img class="slika" src="../slike/1_2.png" style="width: 50%;">
+                <p class="besedilo">Raztegnjena elastika ima večji red, posledično nižjo entropijo in obratno. Tukaj lahko razberemo, da je sprememba entropije negativna za raztegovanje in obratno. Če jo torej raztegnemo, odda toploto in obratno; ob segrevanju se skrči in ob ohlajanju razširi. Iz tega vsega lahko opazimo, da je koefcient linearnega raztezka &alpha; <i>negativen</i>:</p>
+                <img class="slika" style="width: " src="../slike/skrinshoti/1-1.png">
+                <p class="besedilo">kjer je <i>F</i> sila, <i>T</i> temperatura, <i>c</i> specična toplota in <i>l</i> dolžina. To se da izpeljati s katerokoli standardno metodo za tekožino, samo da <i>-F</i> igra vlogo tlaka in <i>l</i> vlogo volumna.</p>
+                
+            <h2 class="podtocki" style="margin-top: 2%; margin-bottom: 2%;">Teorija potopljene elastike po <i>Elliotu in Lippmannu</i></h2>
+                
+            <h3 class="podtocki">Sprememba notranje energije ob raztezku</h3>
+                <p class="besedilo"> Ob predpostavki reverzibilnosti (raztezki pod mero kristalizacije) lahko za male raztezke lastnosti gume opi&scaron;emo s temperaturo <i>T</i>, dol&zcaron;ino <i>l</i> in hidrostatskim tlakom <i>p</i>. Hidrostatski tlak vpeljemo, da lahko naredimo volumen elastike neodvisen od raztezka in temperature. Torej so odvisnosti naslednje:</p>
+                <img src="../slike/skrinshoti/1-2.png" class="slika" style="width: 20%;">
+                <p class="besedilo">kjer je <i>E</i> notranja energija, <i>S</i> entropija in <i>V</i> seveda volumen. Iz prvega zakona termodinamike sledi</p>
+                <img src="../slike/skrinshoti/1-3.png" class="slika">
+                <p class="besedilo">Tukaj opazimo, da je tudi sila funkcija temperature, tlaka in dol&zcaron;ine gumice. Z raz&scaron;iritvijo odvisnosti in substitucijo v 1. zakon TD dobimo</p>
+                <img src="../slike/skrinshoti/1-4.png" class="slika" style="width: 70%;">
+                <p class="besedilo">Temperatura, tlak in dol&zcaron;ina so neodvisne spremenljivke, zato jih lahko izberemo neodvisno drug od druge.</p>
+                
+                <p class="besedilo" style="margin-left: 4%;">1. d<i>p</i>=&delta;<i>l</i>=0</p>
+                <img src="../slike/skrinshoti/1-5.png" class="slika" style="width: 30%;">
+                
+                <p class="besedilo" style="margin-left: 4%;">2. d<i>T</i>=&delta;<i>l</i>=0</p>
+                <img src="../slike/skrinshoti/1-6.png" class="slika" style="width: 30%;">
+                     
+                <p class="besedilo" style="margin-left: 4%;">3. d<i>p</i>=&delta;<i>t</i>=0</p>
+                <img src="../slike/skrinshoti/1-7.png" class="slika" style="width: 35%;">
+                
+                <p class="besedilo">Ko to re&scaron;imo za entropijo, dobimo</p>
+                <img src="../slike/skrinshoti/1-8.png" class="slika">
+                
+                <p class="besedilo">Z matemati&ccaron;no identiteto lahko izpeljemo</p>
+                <img src="../slike/skrinshoti/1-9.png" class="slika">
+                
+                <p class="besedilo">&Ccaron;e parcialno diferenciramo energijo po dol&zcaron;ini, dobimo</p>
+                <img src="../slike/skrinshoti/1-10.png" class="slika">
+                
+                <p class="besedilo">Ta relacija ne vsebuje eksperimentalno opa&zcaron;enih koli&ccaron;in. Podobno</p>
+                <img src="../slike/skrinshoti/1-11.png" class="slika">
+                
+                <p class="besedilo">Najdimo še parcialni odvod tlaka po dolžini:</p>
+                <img src="../slike/skrinshoti/1-12.png" class="slika">
+                
+                <p class="besedilo">torej</p>
+                <img src="../slike/skrinshoti/1-13.png" class="slika">
+                
+                <p class="besedilo">Z uporabo prejšnjih enačb pridobimo</p>
+                <img src="../slike/skrinshoti/1-14.png" class="slika">
+                
+                <p class="besedilo">Te zadnje parcialne odvode lahko zamenjamo z bolj poznanimi:</p>
+                <p class="besedilo" style="margin-left: 4%;">1. koeficient raztezka <i>k</i></p>
+                <img src="../slike/skrinshoti/1-15.png" class="slika">
+                <p class="besedilo" style="margin-left: 4%;">2. Youngov koeficient <i>Y</i></p>
+                <img src="../slike/skrinshoti/1-16.png" class="slika">
+                <p class="besedilo" style="margin-left: 4%;">3. stisljivost <i>K</i></p>
+                <img src="../slike/skrinshoti/1-17.png" class="slika">
+                <p class="besedilo" style="margin-left: 4%;">4. ena tretjina koeficienta linearnega volumskega raztezka <i>&beta;<sub>1</sub></i></p>
+                <img src="../slike/skrinshoti/1-18.png" class="slika">
+                
+                <p class="besedilo">Kmalu dobimo iskano odvisnost:</p>
+                <img src="../slike/skrinshoti/1-19.png" class="slika">
+                <p class="besedilo">za male odmike.</p>
+                
+            <h3 class="podtocki" style="margin-top: 2%;">Enačba stanja za majhne raztezke</h3>
+                <p class="besedilo">Če uporabimo volumen, dolžino in temperaturo za neodvisne spremenljivke, dobimo namesto prejšnjega zaključka</p>
+                <img src="../slike/skrinshoti/20.png" class="slika">
+                <p class="besedilo">torej</p>
+                <img src="../slike/skrinshoti/21.png" class="slika">
+                <p class="besedilo">kjer je &Psi; nedoločena funkcija volumna in dolžine. Ta zadnja enačba nam da enačbo stanja gume pri malih raztezkih.</p>
+            
+            </div>               
+            
+        </body>
+    </html>
